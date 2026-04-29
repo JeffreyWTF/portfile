@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Michroma", sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, #001f2f);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 12px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 28px;
+}
+
+.home span {
+    color: #00bfff;
+}
+
+.home p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.btn {
+    border: 2px solid #00bfff;
+    padding: 10px 20px;
+    color: #00bfff;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #00bfff;
+    color: #000;
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill {
+    padding: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-size: 12px;
+}
+
+.project-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact p {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+@media (min-width: 600px) {
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    section {
+        padding: 80px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-links {
+        gap: 30px;
+    }
+
+    .home h1 {
+        font-size: 55px;
+    }
+
+    .home p {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 100px 80px;
+    }
+
+    .about p {
+        max-width: 700px;
+        margin: 10px auto;
+    }
+
+    .project-card {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}

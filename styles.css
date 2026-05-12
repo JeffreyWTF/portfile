@@ -153,11 +153,53 @@ section {
 
 .skills {
     text-align: center;
+<<<<<<< HEAD
+    margin-top: 40px; 
+=======
+>>>>>>> f8efb8b80dee32655959e2100670621335891f24
 }
 
 .skills-grid {
     margin-top: 25px;
     display: grid;
+<<<<<<< HEAD
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); 
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;  
+    padding: 25px;            
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 14px;        
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #222;         
+}
+
+.skill i {
+    font-size: 3rem;          
+    margin-bottom: 10px;
+    color: #04aef8;           
+}
+
+.skill span {
+    font-size: 1.2rem;       
+    font-weight: bold;
+    color: #fff;
+    text-align: center;       
+}
+
+.skill:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+
+=======
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 12px;
 }
@@ -173,6 +215,7 @@ section {
     transform: translateY(-5px);
 }
 
+>>>>>>> f8efb8b80dee32655959e2100670621335891f24
 .projects {
     text-align: center;
 }
@@ -184,6 +227,16 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+<<<<<<< HEAD
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+=======
+>>>>>>> f8efb8b80dee32655959e2100670621335891f24
 .contact {
     text-align: center;
 }
@@ -193,6 +246,45 @@ section {
     color: #aaa;
 }
 
+<<<<<<< HEAD
+footer {
+    background-color: #000; 
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer h2 {
+    color: #04aef8;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #fff; 
+}
+
+footer nav ul li a:hover {
+    color: #1f3fdc; 
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #04aef8;
+    font-size: 28px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1f3fdc;
+}
+
+
+=======
+>>>>>>> f8efb8b80dee32655959e2100670621335891f24
 @media (max-width: 480px) {
     .nav-links {
         gap: 4px;
